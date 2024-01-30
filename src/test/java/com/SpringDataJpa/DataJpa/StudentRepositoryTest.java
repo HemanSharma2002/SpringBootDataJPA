@@ -45,4 +45,16 @@ public class StudentRepositoryTest {
     public void printAllStudents(){
         System.out.println(studentrepository.findAll());
     }
+    @Test
+    public void printListOfStudentWithFirstNameStartingWith(){
+        System.out.println(studentrepository.findByFirstNameContaining("a"));
+    }
+    @Test
+    public void printListOfStudentWithGuardianName(){
+        System.out.println(studentrepository.findByGuardianName("Rajeev"));
+    }
+    @Test
+    public void updateLastNameByEmail(){
+        studentrepository.updateLastNameByEmail("Sharma","rj@gmail.com");
+    }
 }
