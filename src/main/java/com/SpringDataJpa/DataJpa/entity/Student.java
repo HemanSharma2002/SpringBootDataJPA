@@ -21,7 +21,6 @@ public class Student {
     private String lastName;
     @Column(name = "email_address",nullable = false)
     private String emailId;
-    private String guardianName;
-    private String guardianEmail;
-    private String guardianMonile;
+    @Enumerated
+    private Guardian guardian;
 }
