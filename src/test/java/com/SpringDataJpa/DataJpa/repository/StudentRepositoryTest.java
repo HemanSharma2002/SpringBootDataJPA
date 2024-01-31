@@ -1,4 +1,4 @@
-package com.SpringDataJpa.DataJpa;
+package com.SpringDataJpa.DataJpa.repository;
 
 import com.SpringDataJpa.DataJpa.entity.Guardian;
 import com.SpringDataJpa.DataJpa.entity.Student;
